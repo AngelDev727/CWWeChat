@@ -1,0 +1,6 @@
+framework module Pods_CWWeChat {
+  umbrella header "Pods-CWWeChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

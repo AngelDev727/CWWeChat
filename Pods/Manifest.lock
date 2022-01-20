@@ -1,0 +1,151 @@
+PODS:
+  - Alamofire (4.5.1)
+  - CocoaAsyncSocket (7.6.1)
+  - CocoaLumberjack (3.2.1):
+    - CocoaLumberjack/Default (= 3.2.1)
+    - CocoaLumberjack/Extensions (= 3.2.1)
+  - CocoaLumberjack/Default (3.2.1)
+  - CocoaLumberjack/Extensions (3.2.1):
+    - CocoaLumberjack/Default
+  - CWActionSheet (0.0.6)
+  - CWShareView (0.0.2)
+  - FSPagerView (0.7.0)
+  - Hue (3.0.0)
+  - Kingfisher (4.0.1)
+  - KissXML (5.2.0)
+  - KVOController (1.2.0)
+  - MBProgressHUD (1.0.0)
+  - Nimble (7.0.1)
+  - OHHTTPStubs/Core (6.0.0)
+  - OHHTTPStubs/Default (6.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (6.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (6.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (6.0.0)
+  - OHHTTPStubs/Swift (6.0.0):
+    - OHHTTPStubs/Default
+  - pop (1.0.10)
+  - PPBadgeViewSwift (2.0.0)
+  - Quick (1.1.0)
+  - RxCocoa (4.0.0-beta.0):
+    - RxSwift (~> 4.0.0-beta.0)
+  - RxSwift (4.0.0-beta.0)
+  - SnapKit (4.0.0)
+  - SQLite.swift (0.11.4):
+    - SQLite.swift/standard (= 0.11.4)
+  - SQLite.swift/standard (0.11.4)
+  - SwiftyBeaver (1.4.2)
+  - SwiftyImage (1.2.0)
+  - SwiftyJSON (3.1.4)
+  - XMPPFramework (3.7.0):
+    - CocoaAsyncSocket (~> 7.6.0)
+    - CocoaLumberjack
+    - KissXML (~> 5.2.0)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - Alamofire
+  - CWActionSheet
+  - CWShareView
+  - FSPagerView
+  - Hue
+  - Kingfisher
+  - KVOController
+  - MBProgressHUD
+  - Nimble
+  - OHHTTPStubs/Swift
+  - pop
+  - PPBadgeViewSwift
+  - Quick
+  - RxCocoa (from `https://github.com/ReactiveX/RxSwift.git`, branch `rxswift4.0-swift4.0`)
+  - RxSwift (from `https://github.com/ReactiveX/RxSwift.git`, branch `rxswift4.0-swift4.0`)
+  - SnapKit
+  - SQLite.swift (from `https://github.com/stephencelis/SQLite.swift.git`, branch `swift-4`)
+  - SwiftyBeaver
+  - SwiftyImage
+  - SwiftyJSON
+  - XMPPFramework
+  - YYText
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - CWActionSheet
+    - CWShareView
+    - FSPagerView
+    - Hue
+    - Kingfisher
+    - KissXML
+    - KVOController
+    - MBProgressHUD
+    - Nimble
+    - OHHTTPStubs
+    - pop
+    - PPBadgeViewSwift
+    - Quick
+    - SnapKit
+    - SwiftyBeaver
+    - SwiftyImage
+    - SwiftyJSON
+    - XMPPFramework
+    - YYText
+
+EXTERNAL SOURCES:
+  RxCocoa:
+    :branch: rxswift4.0-swift4.0
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxSwift:
+    :branch: rxswift4.0-swift4.0
+    :git: https://github.com/ReactiveX/RxSwift.git
+  SQLite.swift:
+    :branch: swift-4
+    :git: https://github.com/stephencelis/SQLite.swift.git
+
+CHECKOUT OPTIONS:
+  RxCocoa:
+    :commit: ecb9ba58435f703c361b3906ee29c2d45a605a4a
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxSwift:
+    :commit: ecb9ba58435f703c361b3906ee29c2d45a605a4a
+    :git: https://github.com/ReactiveX/RxSwift.git
+  SQLite.swift:
+    :commit: 7312423d83bb713591a0d827a89fe664eba14451
+    :git: https://github.com/stephencelis/SQLite.swift.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  CocoaLumberjack: 2800c03334042fe80589423c8d80e582dcaec482
+  CWActionSheet: 7ab61a8628bfe3c4b9932983e154181ea4c9cd2f
+  CWShareView: a7befa2a75fa1113c587b69b03b48556b488316d
+  FSPagerView: 7042409096ef3fc050a3f5f4ccc941e8a5a2b330
+  Hue: b8fe1e43eef13631331eebecb2198b68e2622f95
+  Kingfisher: b771785e9461ed4b8686d40e7145f9e58100cb24
+  KissXML: 1c1eeeb6b94e4522cd2f2373e5d0d03c9227738f
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Nimble: 657d000e11df8aebe27cdaf9d244de7f30ed87f7
+  OHHTTPStubs: 752f9b11fd810a15162d50f11c06ff94f8e012eb
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  PPBadgeViewSwift: dc520c183e11d87fbe19bdb223e8b47d158f3c6b
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
+  RxCocoa: f2dff5e6b6a40f842867ec5915f449e1c3af563a
+  RxSwift: cafebeafadc860ca27a2f3fb3760a8bb8663f6ef
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
+  SwiftyBeaver: 91057725648ee4980308f1650af077d04b3654a0
+  SwiftyImage: ebaa7c7b6163cd4ad102f3bb05a8fb276d35b4f3
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  XMPPFramework: 6f99ad1afcdb0cdbec7192a8e4c542c3fc3de6f8
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: fcaa1cef1550110509321eace332dc12ccedaaf7
+
+COCOAPODS: 1.11.2
