@@ -149,7 +149,7 @@ extension CWMessage {
         }
     }
     
-    public override var hashValue: Int {
+    public override var hash: Int {
         return messageId.hashValue
     }
     

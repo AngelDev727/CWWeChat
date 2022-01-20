@@ -31,6 +31,7 @@ public class FPSLabel: UILabel {
     public override var intrinsicContentSize: CGSize {
         return CGSize(width: 55, height: 20)
     }
+    
     public override func willMove(toWindow newWindow: UIWindow?) {
         super.willMove(toWindow: newWindow)
         if newWindow == nil {

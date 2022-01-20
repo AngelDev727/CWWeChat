@@ -49,7 +49,7 @@ public class CWUserModel: NSObject {
         self.userId = userId
     }
     
-    override public var hashValue: Int {
+    override public var hash: Int {
         return self.userId.hash
     }
     

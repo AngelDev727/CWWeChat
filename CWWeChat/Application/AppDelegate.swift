@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             if let window = self.window {
                 let label = FPSLabel(frame: CGRect(x: window.bounds.width - 55 - 8, y: 20, width: 55, height: 20))
                 label.autoresizingMask = [.flexibleLeftMargin, .flexibleBottomMargin]
-                window.addSubview(label)
+//                window.addSubview(label)
             }
         }
         return true

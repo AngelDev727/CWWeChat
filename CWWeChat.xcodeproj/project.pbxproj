@@ -867,8 +867,6 @@
 			isa = PBXGroup;
 			children = (
 				1F3492421E87922A00B36641 /* Controller */,
-				1F3492431E87922A00B36641 /* Model */,
-				1F3492451E87922A00B36641 /* View */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -877,8 +875,6 @@
 			isa = PBXGroup;
 			children = (
 				1F3492461E87923000B36641 /* Controller */,
-				1F3492471E87923000B36641 /* Model */,
-				1F3492481E87923000B36641 /* Tool */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -990,20 +986,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		1F3492431E87922A00B36641 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1F3492451E87922A00B36641 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		1F3492461E87923000B36641 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -1012,20 +994,6 @@
 				8C34AFA31E9BD84A00977742 /* CWChatDetailViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		1F3492471E87923000B36641 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1F3492481E87923000B36641 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tool;
 			sourceTree = "<group>";
 		};
 		1F34925A1E87B3A400B36641 /* Vendor */ = {
@@ -1657,6 +1625,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
